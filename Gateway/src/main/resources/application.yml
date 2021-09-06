@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: Gateway
+  #Gateway Configuration
+#  cloud:
+#    gateway:
+#      routes:
+#      - id: SSO
+#        uri: http://localhost:8082/
+#        predicates:
+#        - path=/api/sso/**
+#      - id: Core
+#        uri: http://localhost:8081/
+#        predicates:
+#        - path=/api/core/**
